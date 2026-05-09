@@ -1,0 +1,23 @@
+# Environment files
+.env
+.env.*
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Logs and cache
+*.log
+*.cache
+/tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Uploaded files (if added later)
+/uploads/
