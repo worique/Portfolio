@@ -16,7 +16,7 @@ $dbHost = getenv('DB_HOST') ?: '127.0.0.1';
 $dbPort = getenv('DB_PORT') ?: '3306';
 $dbName = getenv('DB_NAME') ?: 'portfolio_db';
 $dbUser = getenv('DB_USER') ?: 'root';
-$dbPass = getenv('DB_PASS');
+$dbPass = getenv('DB_PASS') ?: 'b7ae8522158'; 
 $dbPass = $dbPass === false ? '' : $dbPass;
 $dbCharset = 'utf8mb4';
 
